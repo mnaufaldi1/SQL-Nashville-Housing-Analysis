@@ -60,7 +60,6 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 - The highest-valued properties and their owners are all concentrated in **Nashville**, with values ranging up to $100M+, indicating strong local ownership and capital retention. 
 
 📌 **Takeaway:** Nashville’s housing market is residential-driven and locally dominated, with prices reflecting a clear affordability structure and wealth concentrated among local property owners — suggesting stable, community-centered investment patterns.
-<br><br>
 
 ### 📅 2. Sales Trends Over Time
 - Property sales and average sale prices peaked in **2015**, with the strongest year-over-year growth occurring between 2013–2015 before slowing afterward.  
@@ -69,7 +68,6 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 - Dataset coverage beyond 2016 is limited.
 
 📌 **Takeaway:** Nashville’s housing sales follow a mid-year activity surge with a price peak in early and late months, reflecting seasonal buying behavior and selective high-end transactions during off-peak periods.
-<br><br>
 
 ### 🌆 3. City-Level Insights
 
@@ -99,7 +97,7 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 |---|---|
 | Brentwood | $152K |
 | Nashville | $78K |
-| Old Hickory | **$35K |
+| Old Hickory | $35K |
 
 → Land scarcity and demand are **strongest in Brentwood and Nashville**.
 
@@ -115,7 +113,6 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 > **Note:** Cities with low sales counts (e.g., Nolensville, Mount Juliet) may show skewed averages — We may want to interpret it cautiously.
 
 📌 **Takeaway**: Real estate activity and value are heavily concentrated in Nashville and select surrounding cities (e.g. Goodlettsville, Brentwood), signaling where investment focus, pricing strategy, and marketing efforts may yield the strongest returns.
-<br><br>
 
 ### 🧱 4. Property Characteristics
 
@@ -129,21 +126,18 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 - Non-vacant homes sell at **slightly higher prices** → move-in-ready is more attractive.
 
 📌 **Takeaway:** The Nashville market is driven by move-in-ready mid-century homes, with new builds attracting premium buyers. Renovation and infill projects represent strong investment opportunities.
-<br><br>
 
 ### 💰 5. Value Drivers & Correlation
 Relationship between land value, building value, and sale price shows:
  | Factor             | Correlation with Sale Price |
 | ------------------ | --------------------------- |
-| **Land Value**     | **0.60**                    |
-| **Building Value** | **0.57**                    |
+| Land Value     | 0.60                    |
+| Building Value | 0.57                    |
 
 - Both factors meaningfully affect total property value, but this indicates that **location and lot desirability have a greater influence on pricing than the physical structure alone**.
 - This aligns with urban market behavior, where property value is driven more by **where the home is located** rather than **what the home is built like**.
 
 📌 **Takeaway:** Pricing strategy should prioritize land and location-based factors. For sellers and developers, improving lot appeal and targeting high-demand neighborhoods may yield greater returns than focusing solely on building upgrades.
-
----
 
 ### 🧠 Example Analysis Query
 
