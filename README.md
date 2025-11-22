@@ -1,6 +1,6 @@
 # 🏡 Nashville Housing Data Project
 
-This project focuses on cleaning and analyzing the **Nashville Housing dataset** (available online) using **SQL (PostgreSQL)**.
+This project focuses on cleaning and analyzing the **Nashville Housing dataset** (available online) using SQL (PostgreSQL).
 The goal is to transform messy property data into clean, usable information and uncover real estate insights through data exploration.
 
 ---
@@ -55,16 +55,16 @@ AND t1.propertyaddress IS NULL;
 After cleaning, the dataset was explored to understand **sales patterns, property characteristics, and pricing behavior** across different cities in Nashville.
 
 ### 🏠 1. Market Overview
-- **Average sale price**: ~$327K | **Median**: ~$205K → indicates a **right-skewed** market driven by high-price outliers.
-- **Single-family homes** dominate the market, followed by **residential condos** and **vacant residential land**, highlighting a strong focus on long-term residential development.  
-- The highest-valued properties and their owners are all concentrated in **Nashville**, with values ranging up to $100M+, indicating strong local ownership and capital retention. 
+- Average sale price: ~$327K | Median: ~$205K → indicates a right-skewed market driven by high-price outliers.
+- Single-family homes dominate the market, followed by residential condos and vacant residential land, highlighting a strong focus on long-term residential development.  
+- The highest-valued properties and their owners are all concentrated in Nashville, with values ranging up to $100M+, indicating strong local ownership and capital retention. 
 
 📌 **Takeaway:** Nashville’s housing market is residential-driven and locally dominated, with prices reflecting a clear affordability structure and wealth concentrated among local property owners — suggesting stable, community-centered investment patterns.
 
 ### 📅 2. Sales Trends Over Time
-- Property sales and average sale prices peaked in **2015**, with the strongest year-over-year growth occurring between 2013–2015 before slowing afterward.  
-- Sales activity peaks during **April–September**, suggesting this period is optimal for **marketing new listings and closing deals**.  
-- Interestingly, January and December show fewer transactions but **higher average prices**, implying that luxury buyers are more active off-season — a good window for targeting high-end segments.  
+- Property sales and average sale prices peaked in 2015, with the strongest year-over-year growth occurring between 2013–2015 before slowing afterward.  
+- Sales activity peaks during April–September, suggesting this period is optimal for marketing new listings and closing deals.  
+- Interestingly, January and December show fewer transactions but higher average prices, implying that luxury buyers are more active off-season — a good window for targeting high-end segments.  
 - Dataset coverage beyond 2016 is limited.
 
 📌 **Takeaway:** Nashville’s housing sales follow a mid-year activity surge with a price peak in early and late months, reflecting seasonal buying behavior and selective high-end transactions during off-peak periods.
@@ -72,9 +72,9 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 ### 🌆 3. City-Level Insights
 
 #### 🏙️ Market Activity (Volume of Sales)
-- **Nashville leads significantly** with ~40,000 property sales.
+- Nashville leads significantly with ~40,000 property sales.
 - Antioch (~6,200) and Hermitage (~3,126) form secondary market clusters.
-→ Indicates **Nashville is the primary real estate activity hub** in the region.
+→ Indicates Nashville is the primary real estate activity hub in the region.
 
 #### 💵 Average Sale Price (Market Value Index)
 | City | Avg Sale Price |
@@ -86,9 +86,9 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 → Suburban cities hold **competitive pricing bands** outside the core region (Nashville).
 
 #### 🏗️ Building Value (Construction & Structural Investment)
-- **Brentwood** stands at the **highest building value tier** (~$311K).
-- **Nashville** follows at a **mid-high tier** (~$190K).
-- Cities like **Goodlettsville and Hermitage** range from **$77K–$118K**, forming the **mid-market segment**.
+- Brentwood stands at the highest building value tier (~$311K).
+- Nashville follows at a mid-high tier (~$190K).
+- Cities like Goodlettsville and Hermitage range from $77K–$118K, forming the mid-market segment.
 
 → Indicates a clear **tiered housing investment landscape**, from premium developments to more moderately built residential areas.
 
@@ -118,12 +118,12 @@ After cleaning, the dataset was explored to understand **sales patterns, propert
 
 #### 🕒 Property Age & Sale Price
 - New homes (0 years): highest sale price (~$440K).
-- Majority of sales come from homes aged **50–65 years** → core housing stock.
+- Majority of sales come from homes aged 50–65 years → core housing stock.
 - Very old homes (100+ years): niche/historical market.
 
 #### 🚪 Vacancy Status
-- **Non-vacant homes** dominate sales (~51K vs ~4.6K vacant).
-- Non-vacant homes sell at **slightly higher prices** → move-in-ready is more attractive.
+- Non-vacant homes dominate sales (~51K vs ~4.6K vacant).
+- Non-vacant homes sell at slightly higher prices → move-in-ready is more attractive.
 
 📌 **Takeaway:** The Nashville market is driven by move-in-ready mid-century homes, with new builds attracting premium buyers. Renovation and infill projects represent strong investment opportunities.
 
@@ -134,8 +134,8 @@ Relationship between land value, building value, and sale price shows:
 | Land Value     | 0.60                    |
 | Building Value | 0.57                    |
 
-- Both factors meaningfully affect total property value, but this indicates that **location and lot desirability have a greater influence on pricing than the physical structure alone**.
-- This aligns with urban market behavior, where property value is driven more by **where the home is located** rather than **what the home is built like**.
+- Both factors meaningfully affect total property value, but this indicates that location and lot desirability have a greater influence on pricing than the physical structure alone.
+- This aligns with urban market behavior, where property value is driven more by where the home is located rather than what the home is built like.
 
 📌 **Takeaway:** Pricing strategy should prioritize land and location-based factors. For sellers and developers, improving lot appeal and targeting high-demand neighborhoods may yield greater returns than focusing solely on building upgrades.
 
